@@ -1,10 +1,29 @@
-.mainTitle {
-  background-color: $main-color-yellow;
-  height: 110px;
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: 4px;
-  margin: 0;
-}
+        .mainTitle {
+          background-color: $main-color-yellow;
+          height: 110px;
+          width: 100%;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          letter-spacing: 4px;
+          margin: 0;
+          margin-bottom: 60px;
+        }
+        
+        .content__titleContainer {
+          background-color: $main-color-yellow;
+          height: 8px;
+          width: 100%;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          margin: 50px 0;
+        }
+        
+        .content__title {
+          font-size: 130%;
+          font-weight: 400;
+          background-color: white;
+          padding: 0px 25px;
+          letter-spacing: 2px;
+        }
