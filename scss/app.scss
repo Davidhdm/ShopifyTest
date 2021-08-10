@@ -5,6 +5,7 @@
 // Components
 @import "mixins";
 @import "components/header/headerWrapper";
+@import "components/mainContent/mainContent";
 body {
   margin: 0;
   background-color: white;
@@ -13,4 +14,5 @@ body {
 
 .brandImage {
   width: 100%;
+  margin: 0;
 }

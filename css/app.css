@@ -87,10 +87,21 @@
 .headerWrapper {
   margin-top: 15px; }
 
+.mainTitle {
+  background-color: #E0FF04;
+  height: 110px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 4px;
+  margin: 0; }
+
 body {
   margin: 0;
   background-color: white;
   font-family: 'Libre Franklin', sans-serif; }
 
 .brandImage {
-  width: 100%; }
+  width: 100%;
+  margin: 0; }
