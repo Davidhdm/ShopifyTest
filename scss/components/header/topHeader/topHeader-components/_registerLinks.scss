@@ -5,17 +5,29 @@
   width: 250px;
   .topHeader__registerSeparator {
     background-color: $black-text;
-    height: 14px;
+    height: 18px;
     width: 1px;
   }
   .topHeader__register {
     @include link;
     font-size: 12px;
+    border-radius: 4px;
+    padding: 5px;
+    transition: background-color 0.5s ease;
   }
   .topHeader__myAccount {
     @include link;
     font-size: 12px;
+    border-radius: 4px;
     margin-right: 30px;
+    padding: 5px;
+    transition: background-color 0.5s ease;
+  }
+  .topHeader__register:hover {
+    background-color: $main-color-yellow;
+  }
+  .topHeader__myAccount:hover {
+    background-color: $main-color-yellow;
   }
   .topHeader__icons {
     font-size: 25px;
