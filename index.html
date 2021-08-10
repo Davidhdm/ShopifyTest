@@ -5,22 +5,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/app.css">
   <title>Koibird</title>
 </head>
 
 <body>
-  <header>
-    <div class="mainHeader">
-      <input type="search">
-      <img src="img/koibird_logo.png" alt="">
+  <header class="headerWrapper">
+    <div class="topHeader">
+      <div class="searchInputContainer">
+        <input class="topHeader__searchInput" type="search">
+        <span class="iconify topHeader__searchIcon" data-icon="carbon:search"></span>
+      </div>
+      <img class="topHeader__logo" src="img/koibird_logo.png" alt="Koibird Logo">
       <div class="registerContainer">
-        <span>Register</span>
-        <div class="registerSeparator"></div>
-        <span>My account</span>
-        <span class="iconify" data-icon="clarity:heart-line"></span>
-        <span class="iconify" data-icon="la:shopping-bag"></span>
+        <a href="#" class="topHeader__register">Register</a>
+        <div class="topHeader__registerSeparator"></div>
+        <a href="#" class="topHeader__myAccount">My Account</a>
+        <span class="iconify topHeader__icons" data-icon="clarity:heart-line"></span>
+        <span class="iconify topHeader__icons" data-icon="la:shopping-bag"></span>
       </div>
     </div>
+
   </header>
   <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 </body>

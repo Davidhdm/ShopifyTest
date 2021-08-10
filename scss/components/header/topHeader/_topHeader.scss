@@ -1,0 +1,12 @@
+@import "topHeader-components/searchInput";
+@import "topHeader-components/registerLinks";
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 90px;
+}
+
+.topHeader__logo {
+  width: 350px;
+}

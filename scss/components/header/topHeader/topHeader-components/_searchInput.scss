@@ -1,0 +1,22 @@
+.searchInputContainer {
+  position: relative;
+}
+
+.topHeader__searchInput {
+  padding: 3px 0px 3px 30px;
+  width: 150px;
+  font-size: initial;
+  border: none;
+  border-bottom: solid 1px $black-text;
+}
+
+.topHeader__searchInput:focus {
+  outline: none;
+}
+
+.topHeader__searchIcon {
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}

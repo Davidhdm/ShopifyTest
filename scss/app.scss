@@ -1,4 +1,11 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;600;700&display=swap');
+// Variables
 @import "variables";
+// Components
+@import "mixins";
+@import "components/header/headerWrapper";
 body {
   background-color: white;
+  font-family: 'Libre Franklin', sans-serif;
 }
