@@ -1,0 +1,23 @@
+.slider {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: space-around;
+  position: relative;
+}
+
+.sliderLeftBtn {
+  color: $main-color-yellow;
+  position: absolute;
+  font-size: 80px;
+  top: 6vw;
+  left: 0;
+}
+
+.sliderRightBtn {
+  color: $main-color-yellow;
+  position: absolute;
+  font-size: 80px;
+  top: 6vw;
+  right: 0;
+}
