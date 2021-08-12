@@ -8,28 +8,28 @@ export const products = {
     },
     {
       "id": 2,
-      "name": "Black Jacket",
+      "name": "Black Jackeqwet",
       "brand": "Gucci",
       "price": "£000",
       "img": "..\\..\\img\\products\\black_jacket.png"
     },
     {
       "id": 3,
-      "name": "Black Jacket",
+      "name": "Black Jackest",
       "brand": "Gucci",
       "price": "£000",
       "img": "..\\..\\img\\products\\black_jacket.png"
     },
     {
       "id": 4,
-      "name": "Black Jacket",
+      "name": "Black Jackest",
       "brand": "Gucci",
       "price": "£000",
       "img": "..\\..\\img\\products\\black_jacket.png"
     },
     {
       "id": 5,
-      "name": "Black Jacket",
+      "name": "Black Jackset",
       "brand": "Gucci",
       "price": "£000",
       "img": "..\\..\\img\\products\\black_jacket.png"
@@ -50,7 +50,7 @@ export const products = {
     },
     {
       "id": 8,
-      "name": "Black Jacket",
+      "name": "Black Jackeeeee",
       "brand": "Gucci",
       "price": "£000",
       "img": "..\\..\\img\\products\\black_jacket.png"

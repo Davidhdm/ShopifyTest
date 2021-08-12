@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/app.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/app.css" />
   <title>Koibird</title>
 </head>
 
@@ -13,10 +13,10 @@
   <header class="headerWrapper">
     <div class="topHeader">
       <div class="searchInputContainer">
-        <input class="topHeader__searchInput" type="search">
+        <input class="topHeader__searchInput" type="search" />
         <span class="iconify topHeader__searchIcon" data-icon="carbon:search"></span>
       </div>
-      <img class="topHeader__logo" src="img/koibird_logo.png" alt="Koibird Logo">
+      <img class="topHeader__logo" src="img/koibird_logo.png" alt="Koibird Logo" />
       <div class="registerContainer">
         <a href="#" class="topHeader__register">Register</a>
         <div class="topHeader__registerSeparator"></div>
@@ -27,42 +27,56 @@
     </div>
     <nav class="navbar">
       <ul class="navbar__list">
-        <li class="navbar__link">SHOP BY CATEGORY
+        <li class="navbar__link">
+          SHOP BY CATEGORY
           <div class="navbar__lineAnimation"></div>
         </li>
-        <li class="navbar__link">SHOP BY BRAND
+        <li class="navbar__link">
+          SHOP BY BRAND
           <div class="navbar__lineAnimation"></div>
         </li>
-        <li class="navbar__link">SHOP BY COLLECTION
+        <li class="navbar__link">
+          SHOP BY COLLECTION
           <div class="navbar__lineAnimation"></div>
         </li>
-        <li class="navbar__link">ABOUT KOIBIRD
+        <li class="navbar__link">
+          ABOUT KOIBIRD
           <div class="navbar__lineAnimation"></div>
         </li>
-        <li class="navbar__link">POP-UP SHOP
+        <li class="navbar__link">
+          POP-UP SHOP
           <div class="navbar__lineAnimation"></div>
         </li>
       </ul>
     </nav>
   </header>
-  <img class="brandImage" src="img/koibird_image.png" alt="Koibird main image">
+  <img class="brandImage" src="img/koibird_image.png" alt="Koibird main image" />
   <main class="mainContent">
     <h2 class="mainTitle">WHAT WE ARE SHOPPING NOW</h2>
-    <section class="content newIn">
+    <section class="content">
       <div class="content__titleContainer">
         <h3 class="content__title">NEW IN</h3>
       </div>
-      <div class="content__newIn slider">
-        <span class="iconify sliderLeftBtn" data-icon="eva:arrow-ios-back-fill"></span>
-        <span class="iconify sliderRightBtn" data-icon="eva:arrow-ios-back-fill" data-rotate="180deg"></span>
+      <div class="sliderLeftBtn">
+        <span class="iconify" data-icon="eva:arrow-ios-back-fill"></span>
+      </div>
+      <div class="content__newIn slider"></div>
+      <div class="sliderRightBtn">
+        <span class="iconify" data-icon="eva:arrow-ios-back-fill" data-rotate="180deg"></span>
       </div>
     </section>
     <section class="productCategories"></section>
-    <section class="content bestSellers">
+    <section class="content">
       <div class="content__titleContainer">
         <h3 class="content__title">BEST SELLERS</h3>
       </div>
+      <div class="sliderLeftBtn">
+        <span class="iconify" data-icon="eva:arrow-ios-back-fill"></span>
+      </div>
       <div class="content__bestSellers slider"></div>
+      <div class="sliderRightBtn">
+        <span class="iconify" data-icon="eva:arrow-ios-back-fill" data-rotate="180deg"></span>
+      </div>
     </section>
   </main>
   <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
