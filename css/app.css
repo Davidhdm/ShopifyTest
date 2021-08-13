@@ -143,14 +143,16 @@
   position: absolute;
   font-size: 80px;
   top: 13vw;
-  left: 0; }
+  left: 0;
+  cursor: pointer; }
 
 .sliderRightBtn {
   color: #E0FF04;
   position: absolute;
   font-size: 80px;
   top: 13vw;
-  right: 0; }
+  right: 0;
+  cursor: pointer; }
 
 .mainTitle {
   background-color: #E0FF04;
