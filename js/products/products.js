@@ -4,56 +4,56 @@ export const products = {
       "name": "Black Jacket",
       "brand": "Gucci",
       "price": "£000",
-      "img": "..\\..\\img\\products\\black_jacket.png"
+      "img": "..\\..\\img\\products\\new-in\\black_jacket.png"
     },
     {
       "id": 2,
-      "name": "Black Jacket",
-      "brand": "Gucci",
+      "name": "White Jacket",
+      "brand": "Bacon Clothing",
       "price": "£000",
-      "img": "..\\..\\img\\products\\black_jacket.png"
+      "img": "..\\..\\img\\products\\new-in\\white_jacket.png"
     },
     {
       "id": 3,
-      "name": "Black Jacket",
-      "brand": "Gucci",
+      "name": "Yellow Jacket",
+      "brand": "Annakiki",
       "price": "£000",
-      "img": "..\\..\\img\\products\\black_jacket.png"
+      "img": "..\\..\\img\\products\\new-in\\yellow_jacket.png"
     },
     {
       "id": 4,
-      "name": "Black Jacket",
-      "brand": "Gucci",
+      "name": "Camouflage Jacket",
+      "brand": "Black Crows",
       "price": "£000",
-      "img": "..\\..\\img\\products\\black_jacket.png"
+      "img": "..\\..\\img\\products\\new-in\\camouflage_jacket.png"
     },
     {
       "id": 5,
-      "name": "Black Jacket",
-      "brand": "Gucci",
+      "name": "Green Hoodie",
+      "brand": "Blue Banana",
       "price": "£000",
-      "img": "..\\..\\img\\products\\black_jacket.png"
+      "img": "..\\..\\img\\products\\new-in\\green_hoodie.png"
     },
     {
       "id": 6,
-      "name": "Black Jacket",
-      "brand": "Gucci",
+      "name": "Jeans",
+      "brand": "Hollister",
       "price": "£000",
-      "img": "..\\..\\img\\products\\black_jacket.png"
+      "img": "..\\..\\img\\products\\new-in\\jeans.jpg"
     },
     {
       "id": 7,
-      "name": "Black Jacket",
-      "brand": "Gucci",
+      "name": "Winter Gloves",
+      "brand": "Ejendals",
       "price": "£000",
-      "img": "..\\..\\img\\products\\black_jacket.png"
+      "img": "..\\..\\img\\products\\new-in\\winter_gloves.jpg"
     },
     {
       "id": 8,
-      "name": "Black Jacket",
-      "brand": "Gucci",
+      "name": "Skyblue Hoodie",
+      "brand": "Blue Banana",
       "price": "£000",
-      "img": "..\\..\\img\\products\\black_jacket.png"
+      "img": "..\\..\\img\\products\\new-in\\skyblue_hoodie.png"
     }
   ],
   "best_sellers": [{
@@ -61,56 +61,56 @@ export const products = {
       "name": "Pink Jacket",
       "brand": "Gucci",
       "price": "£000",
-      "img": "..\\..\\img\\products\\pink_jacket.png"
+      "img": "..\\..\\img\\products\\best-sellers\\pink_jacket.png"
     },
     {
       "id": 2,
-      "name": "Pink Jacket",
-      "brand": "Gucci",
+      "name": "Pink-Knit Beanie",
+      "brand": "Bacon Clothing",
       "price": "£000",
-      "img": "..\\..\\img\\products\\pink_jacket.png"
+      "img": "..\\..\\img\\products\\best-sellers\\pink-knit_beanie.png"
     },
     {
       "id": 3,
-      "name": "Pink Jacket",
-      "brand": "Gucci",
+      "name": "Gold Gloves",
+      "brand": "Annakiki",
       "price": "£000",
-      "img": "..\\..\\img\\products\\pink_jacket.png"
+      "img": "..\\..\\img\\products\\best-sellers\\gold_gloves.png"
     },
     {
       "id": 4,
-      "name": "Pink Jacket",
-      "brand": "Gucci",
+      "name": "Cream Handbag",
+      "brand": "Black Crows",
       "price": "£000",
-      "img": "..\\..\\img\\products\\pink_jacket.png"
+      "img": "..\\..\\img\\products\\best-sellers\\cream_handbag.png"
     },
     {
       "id": 5,
-      "name": "Pink Jacket",
-      "brand": "Gucci",
+      "name": "Red Pants",
+      "brand": "Dickies",
       "price": "£000",
-      "img": "..\\..\\img\\products\\pink_jacket.png"
+      "img": "..\\..\\img\\products\\best-sellers\\red_pants.jpg"
     },
     {
       "id": 6,
-      "name": "Pink Jacket",
-      "brand": "Gucci",
+      "name": "Deep Blue O-Shirt",
+      "brand": "True Story",
       "price": "£000",
-      "img": "..\\..\\img\\products\\pink_jacket.png"
+      "img": "..\\..\\img\\products\\best-sellers\\deep_blue_shirt.jpg"
     },
     {
       "id": 7,
-      "name": "Pink Jacket",
-      "brand": "Gucci",
+      "name": "I Love NY Cap",
+      "brand": "Clothing",
       "price": "£000",
-      "img": "..\\..\\img\\products\\pink_jacket.png"
+      "img": "..\\..\\img\\products\\best-sellers\\ilny_cap.png"
     },
     {
       "id": 8,
-      "name": "Pink Jacket",
-      "brand": "Gucci",
+      "name": "Sport Shorts",
+      "brand": "Izas",
       "price": "£000",
-      "img": "..\\..\\img\\products\\pink_jacket.png"
+      "img": "..\\..\\img\\products\\best-sellers\\sport_shorts.jpg"
     }
   ]
 }

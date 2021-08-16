@@ -3,11 +3,15 @@ import { products } from './products/products.js';
 let newInContainer = document.querySelector('.content__newIn');
 let bestSellersContainer = document.querySelector('.content__bestSellers');
 
+console.log('hola');
+
 products.new_in_products.forEach((product) => {
   newInContainer.innerHTML += `
 
     <div class="content__productCard">
-      <img class="content__productImg" src="${product.img}" alt="${product.name}">
+      <div class="productImgContainer">
+        <img class="content__productImg" src="${product.img}" alt="${product.name}">
+      </div>
       <span class="content__productName">${product.name}</span>
       <span class="content__productBrand">${product.brand}</span>
       <span class="content__productPrice">${product.price}</span>
@@ -21,7 +25,9 @@ products.best_sellers.forEach((product) => {
   bestSellersContainer.innerHTML += `
 
     <div class="content__productCard">
-      <img class="content__productImg" src="${product.img}" alt="${product.name}">
+      <div class="productImgContainer">
+        <img class="content__productImg" src="${product.img}" alt="${product.name}">
+      </div>
       <span class="content__productName">${product.name}</span>
       <span class="content__productBrand">${product.brand}</span>
       <span class="content__productPrice">${product.price}</span>
@@ -50,3 +56,5 @@ let bestSellers_RightBtn = document.querySelectorAll('.sliderRightBtn')[1];
 bestSellers_RightBtn.addEventListener('click', () => {
   bestSellersContainer.scrollLeft += 850;
 });
+
+console.log('hola');
