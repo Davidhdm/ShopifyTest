@@ -6,7 +6,12 @@
   align-items: center;
   padding: 0px 90px;
   .topHeader__logo {
-    margin-left: 150px;
-    width: 350px;
+    margin-left: 12vw;
+    width: 30vw;
+    min-width: 230px;
+    @media screen and (max-width: 1023px) {
+      margin: 0 auto;
+      width: 65vw;
+    }
   }
 }

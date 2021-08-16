@@ -1,5 +1,8 @@
 .searchInputContainer {
   position: relative;
+  @media screen and (max-width: 1023px) {
+    display: none;
+  }
   .topHeader__searchInput {
     padding: 3px 0px 3px 30px;
     width: 150px;

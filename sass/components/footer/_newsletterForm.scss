@@ -1,81 +1,85 @@
-.footer__newsletter {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  padding-bottom: 20px;
-}
-
-.newsletter__inputLabel {
-  font-size: 14px;
-  letter-spacing: 1px;
-  margin-bottom: 12px;
-  margin-left: 2px;
-}
-
-.newsletter__input {
-  max-width: 650px;
-  border: solid 1px rgb(214, 214, 214);
-  outline: none;
-  padding: 7px;
-  font-size: 18px;
-  margin-bottom: 12px;
-}
-
-.tickboxContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.newsletter__tickbox {
-  appearance: none;
-  -webkit-appearance: none;
-  background-color: #fafafa;
-  border: 1px solid #cacece;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
-  padding: 6px;
-  border-radius: 3px;
-  display: inline-block;
-  position: relative;
-}
-
-.newsletter__tickbox:active,
-.newsletter__tickbox:checked:active {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.newsletter__tickbox:checked {
-  background-color: #e9ecee;
-  border: 1px solid #adb8c0;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
-  color: #99a1a7;
-}
-
-.newsletter__tickbox:checked:after {
-  content: '\2714';
-  font-size: 14px;
-  position: absolute;
-  top: -4px;
-  left: 1px;
-  color: #07ce00;
-}
-
-.newsletter__tickboxLabel {
-  font-size: 13px;
-  margin-left: 10px;
-}
-
-.newsletter__submitBtn {
-  position: absolute;
-  top: 105px;
-  background-color: transparent;
-  border: none;
-  font-size: 14px;
-  letter-spacing: 2px;
-  cursor: pointer;
-  padding: 0;
-}
-
-.newsletter__submitBtn::after {
-  content: " \276F";
-}
+  .footer__newsletter {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 20px;
+    margin-left: 50px;
+  }
+  
+  .newsletter__inputLabel {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    margin-left: 2px;
+  }
+  
+  .newsletter__input {
+    max-width: 650px;
+    border: solid 1px rgb(214, 214, 214);
+    outline: none;
+    padding: 7px;
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .tickboxContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .newsletter__tickbox {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 6px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .newsletter__tickbox:active,
+  .newsletter__tickbox:checked:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newsletter__tickbox:checked {
+    background-color: #e9ecee;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+    color: #99a1a7;
+  }
+  
+  .newsletter__tickbox:checked:after {
+    content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: -4px;
+    left: 1px;
+    color: #07ce00;
+  }
+  
+  .newsletter__tickboxLabel {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+  
+  .newsletter__submitBtn {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 73px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 8px;
+  }
+  
+  .newsletter__submitBtn::after {
+    content: " \276F";
+  }
